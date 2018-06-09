@@ -1,6 +1,9 @@
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
+plugins:
+  - jekyll-github-meta
+
 
 # Permalinks
 permalink:        pretty
@@ -13,7 +16,7 @@ url:              https://credibilitycoalition.org
 baseurl:          /
 
 author:
-  name:           
+  name:
   url:            https://twitter.com/credcoalition
 
 paginate:         5
