@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Introducing
+title: Under development
 ---
 
-### Under development
+### Contact
+hello@credibiltycoalition.org
 
