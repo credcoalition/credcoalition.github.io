@@ -1,0 +1,26 @@
+pages:
+  - title: Featured pages
+    children:
+      - title: "About"
+        url: /about
+      - title: "Annotation"
+        url: /annotation
+      - title: "Policies"
+        url: /policies
+      - title: "Research"
+        url: /research
+
+  - title: Research
+    children:
+      - title: Working Groups
+      - title: Indicators
+      - title: Grants
+
+  - title: More content
+    children:
+      - title: "Subtitle"
+
+  - title: Blog posts
+    children:
+      - title: "Featured post"
+        url: /2018/07/21/sample-blogpost

@@ -1,28 +1,31 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-plugins:
-  - jekyll-github-meta
+remote_theme: "mmistakes/minimal-mistakes"
 
+include: ["_pages"]
 
-# Permalinks
-permalink:        pretty
+title: "Credibility Coalition Community"
+email: "hello@credibilitycoalition.org"
+description: "Internal references for the Credibility Coalition Community."
+twitter_username: "@credcoalition"
 
-# Setup
-title:            Credibility Coalition Community
-tagline:          'tag line'
-description:      'la de dah'
-url:              https://credcoalition.github.io
-baseurl:          /
+url: https://credcoalition.github.io
+baseurl: /
 
-author:
-  name:
-  url:            https://twitter.com/credcoalition
-
-paginate:         5
-
-# Custom vars
-version:
-
-github:
-  repo:           https://github.com/credcoalition/
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      sidebar:
+        nav: "pages"
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: "pages"
